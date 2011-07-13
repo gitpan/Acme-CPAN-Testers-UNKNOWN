@@ -1,0 +1,14 @@
+use strict;
+use warnings;
+use inc::Module::Install;
+name 'Acme-CPAN-Testers-UNKNOWN';
+author 'Chris Williams <chris@bingosnet.co.uk>';
+version_from 'lib/Acme/CPAN/Testers/UNKNOWN.pm';
+abstract_from 'lib/Acme/CPAN/Testers/UNKNOWN.pm';
+readme_from 'lib/Acme/CPAN/Testers/UNKNOWN.pm';
+perl_version '5.006';
+license 'perl';
+auto_license holder => 'Chris Williams';
+githubmeta;
+auto_provides;
+WriteAll();

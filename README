@@ -1,0 +1,9 @@
+NAME
+    Acme::CPAN::Testers::UNKNOWN - generate an UNKNOWN test report
+
+DESCRIPTION
+    Acme::CPAN::Testers::UNKNOWN generates an "UNKNOWN" test report when run
+    by a CPAN Tester.
+
+    That's pretty much it, really.
+
